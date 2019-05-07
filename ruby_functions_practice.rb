@@ -48,4 +48,10 @@ end
  end
  def volume_of_cube(num1)
    return num1 * num1 * num1
+ end
+ def volume_of_sphere(num1)
+   return  (4.0 / 3.0) * Math::PI * (num1 ** 3)
+ end
+ def fahrenheit_to_celsius(num1)
+   return (num1 - 32) * (5.0 / 9.0)
  end 
